@@ -3,6 +3,7 @@ body{
     font-size: 20px;
     line-height: 1.3cm;
     margin:0;   
+    background-color:turquoise;
 }
 .container{
     width:80%;
@@ -45,7 +46,7 @@ body{
 }
 #jumbo {
     background-image: url('download.jpg');
-    background-position: center center;
+    background-position:center;
     background-repeat: repeat-x;
     min-height: 200px;
     text-align: center;
@@ -53,7 +54,7 @@ body{
 #jumbo h1{
     color: whitesmoke;
     font-size: 45px;
-    padding-top: 20px;
+    padding-top: 50px;
     line-height: 1.6cm;
 }
 #main{
@@ -67,9 +68,6 @@ body{
 #main img{
     max-width: 100%;
     height: auto;
-    align-self: center;
-    padding-left: 250px;
-    padding-right: 50px;
     opacity: 0.7;
 }
 #sidebar{
