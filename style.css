@@ -2,7 +2,7 @@ body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow';
     font-size: 20px;
     line-height: 1.3cm;
-    margin:0;
+    margin:0;   
 }
 .container{
     width:80%;
@@ -67,6 +67,20 @@ body{
     padding: 10px;
     border-right: 1px solid black;
     box-sizing: border-box;
+}
+#sidebar img{
+    max-width: 100%;
+    height: auto;
+    float: right    ;
+    margin-left: 3px;
+    opacity: 0.3;   
+}
+#sidebar img:hover{
+    max-width: 100%;
+    height: auto;
+    float: right    ;
+    margin-left: 3px;
+    opacity: 1;
 }
 #mainfooter{
     background: rgb(80, 78, 78);
